@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>MJI Capital Growth Scope</title>
+<meta name="description" content="Phase 2 expansion proposal for MJI Capital: market expansion, optimized websites, connected TV, Yelp defense and Google Business Profile.">
+<style>
+:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: dark hero band with targets, competitor threat row, five-circle hub, five outcome blocks, phase path, price, close. Larger body type, short copy. */
+:root{
+  --bg:#F4F7FB; --surface:#FFFFFF; --fg:#0E1B2C; --muted:#4A5B70; --line:#D5DEE9;
+  --accent:#2A8FE8; --accent-ink:#0B5CAD; --accent-soft:#E3F0FC; --gold:#9A6A14; --gold-soft:#F6EBD6;
+  --hero-bg:#0B1A2E; --hero-fg:#F2F6FB; --hero-muted:#A9B9CD; --hero-accent:#5DB0F5;
+  --font-display:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;
+  --font-body:'Instrument Sans','Segoe UI',system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#08111E; --surface:#0F1D31; --fg:#E8EEF6; --muted:#A3B3C7; --line:#22344C;
+  --accent:#4DA3F0; --accent-ink:#8CC6F7; --accent-soft:#12304D; --gold:#D8A74F; --gold-soft:#33291A;
+  --hero-bg:#0F2742; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#08111E; --surface:#0F1D31; --fg:#E8EEF6; --muted:#A3B3C7; --line:#22344C;
+  --accent:#4DA3F0; --accent-ink:#8CC6F7; --accent-soft:#12304D; --gold:#D8A74F; --gold-soft:#33291A;
+  --hero-bg:#0F2742; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:18px;line-height:1.55;
+  padding-block:0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1040px;margin:0 auto;display:flex;flex-direction:column;gap:64px;padding-block:28px 64px}
+h1,h2,h3{font-family:var(--font-display);text-wrap:balance;margin:0;line-height:1.1;letter-spacing:-.015em}
+h1{font-size:clamp(2.4rem,6.4vw,3.7rem);font-weight:800}
+h2{font-size:clamp(1.75rem,4vw,2.3rem);font-weight:800}
+h3{font-size:1.25rem;font-weight:600}
+p{margin:0}
+.eyebrow{font-size:.9rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-ink)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-family:var(--font-display);font-weight:800;letter-spacing:.05em;font-size:1.2rem}
+.brand span{color:var(--accent)}
+.prep{color:var(--muted);font-size:1rem}
+.hero{background:var(--hero-bg);color:var(--hero-fg);border-radius:14px;padding:clamp(24px,5vw,48px);display:flex;flex-direction:column;gap:28px}
+.hero .eyebrow{color:var(--hero-accent)}
+.hero .sub{color:var(--hero-muted);font-size:1.25rem;max-width:44ch}
+.targets{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.target{border-top:2px solid var(--hero-accent);padding-top:12px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.target b{font-family:var(--font-display);font-size:2rem;font-weight:800;line-height:1.1}
+.target span{color:var(--hero-muted);font-size:1rem}
+.head{display:flex;flex-direction:column;gap:12px;max-width:60ch}
+.head p{color:var(--muted)}
+.band{display:flex;flex-direction:column;gap:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.card p,.card li{color:var(--muted);font-size:1.05rem}
+.card a{color:var(--accent-ink)}
+ul.tight{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+.threat{border-left:4px solid var(--gold)}
+.callout{background:var(--gold-soft);border-left:4px solid var(--gold);padding:16px 20px;border-radius:0 8px 8px 0;font-size:1.1rem;font-weight:500}
+.hub{display:flex;justify-content:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px}
+.hub svg{width:100%;max-width:560px;height:auto}
+.hub .ln{stroke:var(--line);stroke-width:2;stroke-dasharray:4 5}
+.hub .node{fill:var(--accent-soft);stroke:var(--accent);stroke-width:2.5}
+.hub .core{fill:var(--accent);}
+.hub text{font-family:var(--font-display);font-weight:600;fill:var(--fg);text-anchor:middle;font-size:17px}
+.hub .core-t{fill:#fff;font-size:21px;font-weight:800}
+.work{display:grid;grid-template-columns:1fr 1.4fr;gap:24px;padding-top:24px;border-top:1px solid var(--line);align-items:start}
+.work .why{display:flex;flex-direction:column;gap:10px;min-width:0}
+.work ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;color:var(--muted);min-width:0}
+.work .win{color:var(--fg);font-size:1.3rem;font-family:var(--font-display);font-weight:600;line-height:1.2}
+.path{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.step{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--line);border-radius:0 0 10px 10px;padding:20px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.step.now{border-top-color:var(--accent)}
+.step .tag{font-size:.9rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.step.now .tag{color:var(--accent-ink)}
+.step p{color:var(--muted);font-size:1.05rem}
+.price{background:var(--surface);border:2px solid var(--accent);border-radius:14px;padding:clamp(22px,4vw,36px);display:flex;flex-direction:column;gap:22px}
+.price-top{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px 28px}
+.price .amt{font-family:var(--font-display);font-weight:800;font-size:clamp(3rem,9vw,4.6rem);line-height:1}
+.price .per{color:var(--muted);font-size:1.15rem;padding-bottom:8px}
+.was{font-size:1.1rem;color:var(--muted)}
+.was s{color:var(--muted)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.cols h3{margin-bottom:8px}
+.sow{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:clamp(20px,3vw,28px);display:flex;flex-direction:column;gap:18px;min-width:0}
+.sow-head{display:flex;flex-direction:column;gap:6px}
+.sow-head p{color:var(--muted);font-size:1.05rem}
+.sow-cols{display:grid;grid-template-columns:1.6fr 1fr;gap:28px}
+.sow-cols h4{margin:0 0 10px;font-size:.9rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--accent-ink)}
+.sow-cols ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;color:var(--muted);font-size:1.05rem}
+.sow-side{display:flex;flex-direction:column;gap:20px;min-width:0}
+.sow-cols>div{min-width:0}
+.terms{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:clamp(20px,3vw,28px)}
+@media (max-width:780px){.sow-cols{grid-template-columns:1fr}}
+.cta{background:var(--hero-bg);color:var(--hero-fg);border-radius:14px;padding:clamp(24px,5vw,44px);display:flex;flex-direction:column;gap:16px}
+.cta p{color:var(--hero-muted);max-width:50ch;font-size:1.15rem}
+.btn{display:inline-block;background:var(--accent);color:#fff;border-radius:8px;padding:13px 22px;font-weight:600;font-size:1.05rem;width:max-content;max-width:100%}
+footer{color:var(--muted);font-size:1rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media (max-width:780px){
+  .work,.cols,.path{grid-template-columns:1fr}
+  .wrap{gap:52px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="top">
+  <div class="brand">EZZEY<span>.</span></div>
+  <div class="prep">Prepared for Michael Iuculano, MJI Capital · October 2026</div>
+</div>
+
+<section class="hero">
+  <div class="eyebrow">Phase 2 proposal</div>
+  <h1>Expanded market. Expanded results.</h1>
+  <p class="sub">Phase 1 built the engine and it is working. Phase 2 doubles your audience and puts MJI Capital in front of every borrower, not just the ones who search for hard money.</p>
+  <div class="targets">
+    <div class="target"><b>2x to 3x</b><span>Audience size, including people who do not know hard money is their answer</span></div>
+    <div class="target"><b>$250K to $500K</b><span>Per month in consistent commissionable revenue, the Phase 2 target</span></div>
+    <div class="target"><b>$1M per month</b><span>The long-term goal this path is built toward</span></div>
+  </div>
+</section>
+
+<section class="band" id="threat">
+  <div class="head">
+    <div class="eyebrow">The problem</div>
+    <h2>Competitors are closing in.</h2>
+    <p>Lenders across the capital world are expanding fast. Second place is not the goal.</p>
+  </div>
+  <div class="grid">
+    <div class="card threat"><h3>LVX Capital</h3><p>Advertising across the same channels you use, and reaching borrowers on Yelp and Google intent ads that should be yours.</p></div>
+    <div class="card threat"><h3>Capital Fund 1</h3><p>Has announced passing $800 million in assets under management. <a href="https://www.einpresswire.com/article/698118231/capital-fund-1-surpasses-800-million-in-assets-under-management">Press release</a></p></div>
+    <div class="card threat"><h3>Griffin Financial</h3><p>A California competitor expanding its visibility month after month.</p></div>
+  </div>
+  <div class="callout">Every month we wait is a month they use to widen the gap.</div>
+</section>
+
+<section class="band" id="plan">
+  <div class="head">
+    <div class="eyebrow">The plan</div>
+    <h2>Five moves that put MJI out front.</h2>
+    <p>Each one reaches more borrowers. Together they feed each other.</p>
+  </div>
+  <div class="hub">
+    <svg viewBox="0 0 520 450" role="img" aria-label="Five workstreams around MJI Capital: market expansion, optimized websites, connected TV, Yelp defense, Google Profile">
+      <line class="ln" x1="260" y1="240" x2="260" y2="75"/>
+      <line class="ln" x1="260" y1="240" x2="417" y2="189"/>
+      <line class="ln" x1="260" y1="240" x2="357" y2="374"/>
+      <line class="ln" x1="260" y1="240" x2="163" y2="374"/>
+      <line class="ln" x1="260" y1="240" x2="103" y2="189"/>
+      <circle class="node" cx="260" cy="75" r="62"/><text x="260" y="71">Market</text><text x="260" y="92">expansion</text>
+      <circle class="node" cx="417" cy="189" r="62"/><text x="417" y="185">Optimized</text><text x="417" y="206">websites</text>
+      <circle class="node" cx="357" cy="374" r="62"/><text x="357" y="370">Connected</text><text x="357" y="391">TV</text>
+      <circle class="node" cx="163" cy="374" r="62"/><text x="163" y="370">Yelp</text><text x="163" y="391">defense</text>
+      <circle class="node" cx="103" cy="189" r="62"/><text x="103" y="185">Google</text><text x="103" y="206">Profile</text>
+      <circle class="core" cx="260" cy="240" r="58"/><text class="core-t" x="260" y="236">MJI</text><text class="core-t" x="260" y="260">Capital</text>
+    </svg>
+  </div>
+
+  <div class="work">
+    <div class="why"><div class="eyebrow">Market expansion</div><div class="win">Reach borrowers who never search "hard money."</div></div>
+    <ul>
+      <li>Custom audiences of people in market, plus lookalikes of people who resemble them</li>
+      <li>New loan types in front of new buyers: DSCR, bank statement, business expansion capital, home equity</li>
+      <li>Keyword set doubled from 50 to 100, with extra weight on California</li>
+      <li>AEO, AIO and GEO for answer engines and AI search, plus local and national SEO</li>
+    </ul>
+  </div>
+
+  <div class="work">
+    <div class="why"><div class="eyebrow">Optimized websites</div><div class="win">Every visit becomes a conversation, and every client becomes a referral.</div></div>
+    <ul>
+      <li>MJI Capital site optimized using AI techniques, built from the approved homepage mockup</li>
+      <li>Michael Iuculano's personal site optimized too, to support his Google knowledge profile</li>
+      <li>Conversion-friendly pages that create the referral effect: "you need to talk to this guy"</li>
+      <li>Personal by design: the MJI team, expert lending and direct attention</li>
+    </ul>
+  </div>
+
+  <div class="work">
+    <div class="why"><div class="eyebrow">Connected TV</div><div class="win">Be the recognizable name on the big screen.</div></div>
+    <ul>
+      <li>One-time $4,000 test, fully managed by EZZEY</li>
+      <li>Viewers scan a QR code, land on your site, and every step is tracked with the pixel</li>
+      <li>If the early results are strong, we discuss expanding ad management</li>
+    </ul>
+  </div>
+
+  <div class="work">
+    <div class="why"><div class="eyebrow">Yelp defense</div><div class="win">Shut the side door LVX Capital is using.</div></div>
+    <ul>
+      <li>$1,000 Yelp test to take back the borrowers LVX Capital is sniping there</li>
+      <li>Same pressure on Google intent ads, Local Services Ads and PPC where LVX takes business</li>
+      <li>Monthly competitor monitoring so you stay ahead</li>
+    </ul>
+  </div>
+
+  <div class="work">
+    <div class="why"><div class="eyebrow">Google Business Profile</div><div class="win">Own the map results in Arizona and California.</div></div>
+    <ul>
+      <li>Continued and extended optimization of the profile</li>
+      <li>Weekly posts, photos, review growth and local citations</li>
+      <li>Local Services Ads integration for added reach</li>
+    </ul>
+  </div>
+</section>
+
+<section class="band" id="path">
+  <div class="head">
+    <div class="eyebrow">The path</div>
+    <h2>Phase 1 built it. Phase 2 scales it.</h2>
+  </div>
+  <div class="path">
+    <div class="step"><div class="tag">Phase 1 · Complete</div><h3>Infrastructure</h3><p>120 to 180 days of hard rebuilding. The results are now showing.</p></div>
+    <div class="step now"><div class="tag">Phase 2 · This proposal</div><h3>Market expansion</h3><p>More audience, more channels, more consistent revenue. Target $250K to $500K per month.</p></div>
+    <div class="step"><div class="tag">Next phases</div><h3>Scale</h3><p>Build on the momentum toward $1M per month.</p></div>
+  </div>
+</section>
+
+<section class="band" id="investment">
+  <div class="head">
+    <div class="eyebrow">Investment</div>
+    <h2>More than double the scope. Not double the cost.</h2>
+  </div>
+  <div class="price">
+    <div class="price-top">
+      <div class="amt">$7,775</div>
+      <div class="per">per month · 12-month commitment</div>
+    </div>
+    <p class="was">Full scope value <s>$12,775</s> per month. The partnership discount reflects our 3% revenue share on Michael's loans and 5% on company loans.</p>
+    <div class="cols">
+      <div>
+        <h3>Included every month</h3>
+        <ul class="tight">
+          <li>Market expansion and 100-keyword SEO</li>
+          <li>Both websites optimized using AI techniques</li>
+          <li>Connected TV management</li>
+          <li>Yelp management and competitor defense</li>
+          <li>Google Business Profile boosting</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Ad budgets, paid to the platforms</h3>
+        <ul class="tight">
+          <li>$4,000 one-time connected TV test</li>
+          <li>$1,000 Yelp test</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="sow">
+  <div class="head">
+    <div class="eyebrow">Scope of work</div>
+    <h2>Exactly what we deliver, service by service.</h2>
+    <p>Twelve-month term. Work begins with a two-week onboarding sprint after approval, then all five services run in parallel.</p>
+  </div>
+
+  <div class="sow">
+    <div class="sow-head"><h3>1. Market expansion and SEO</h3><p>Grow the audience beyond hard money intent and double the keyword set.</p></div>
+    <div class="sow-cols">
+      <div><h4>EZZEY delivers</h4><ul>
+        <li>Keyword research and expansion from 50 to 100 tracked keywords, weighted toward California</li>
+        <li>Custom audiences of in-market buyers, plus lookalike audiences built from them</li>
+        <li>Content clusters and landing pages for DSCR, bank statement, business expansion capital and home equity</li>
+        <li>On-page optimization, schema and internal linking</li>
+        <li>AEO, AIO and GEO optimization for answer engines and AI search</li>
+        <li>Local and national SEO, with link building</li>
+      </ul></div>
+      <div class="sow-side">
+        <div><h4>Reporting</h4><ul><li>Monthly rank and lead report</li></ul></div>
+        <div><h4>MJI provides</h4><ul><li>Loan program details and approved claims</li><li>Funded deal information</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sow">
+    <div class="sow-head"><h3>2. Optimized websites</h3><p>MJI Capital and Michael Iuculano's personal site, optimized using AI techniques.</p></div>
+    <div class="sow-cols">
+      <div><h4>EZZEY delivers</h4><ul>
+        <li>MJI Capital site optimized from the approved homepage mockup: hero, loan programs, why MJI Capital, funded deals gallery, application footer</li>
+        <li>Michael Iuculano's personal site optimized for conversion and to support his Google knowledge profile</li>
+        <li>Borrower messaging for investors, developers and commercial buyers</li>
+        <li>Mobile-first build, page speed, tracking and CRM form connections</li>
+        <li>Personal elements: team photos, direct contact and a referral-friendly path</li>
+      </ul></div>
+      <div class="sow-side">
+        <div><h4>Reporting</h4><ul><li>Monthly conversion and traffic report</li></ul></div>
+        <div><h4>MJI provides</h4><ul><li>Team photos and testimonials</li><li>Funded deal details</li><li>Hosting and DNS access</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sow">
+    <div class="sow-head"><h3>3. Connected TV</h3><p>A one-time test to prove reach and response.</p></div>
+    <div class="sow-cols">
+      <div><h4>EZZEY delivers</h4><ul>
+        <li>Campaign setup and management through the CTV network</li>
+        <li>Audience targeting by real estate investor behavior, income and Arizona and California location</li>
+        <li>Creative trafficking with a QR code to a tracked landing page</li>
+        <li>Pixel tracking from the TV screen to the website to the lead</li>
+        <li>Recommendation on expanding ad management if results are strong</li>
+      </ul></div>
+      <div class="sow-side">
+        <div><h4>Reporting</h4><ul><li>Monthly optimization report and an end-of-test results review</li></ul></div>
+        <div><h4>MJI provides</h4><ul><li>Approval of creative and video assets</li><li>$4,000 test media budget</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sow">
+    <div class="sow-head"><h3>4. Yelp and competitive defense</h3><p>Take back borrowers LVX Capital is reaching on Yelp and Google intent ads.</p></div>
+    <div class="sow-cols">
+      <div><h4>EZZEY delivers</h4><ul>
+        <li>Yelp profile setup: listing, photos, hours and keyword-rich service descriptions</li>
+        <li>$1,000 targeted Yelp ad test in both markets</li>
+        <li>Review request strategy and review response management</li>
+        <li>Monthly Yelp ad budget optimization after the test</li>
+        <li>Competitor monitoring of LVX Capital on Yelp and on Google intent ads, Local Services Ads and PPC, with recommendations</li>
+      </ul></div>
+      <div class="sow-side">
+        <div><h4>Reporting</h4><ul><li>Test results with cost per lead</li><li>Monthly competitor snapshot</li></ul></div>
+        <div><h4>MJI provides</h4><ul><li>Yelp business account access</li><li>$1,000 test budget</li><li>Approval to respond to reviews</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sow">
+    <div class="sow-head"><h3>5. Google Business Profile boosting</h3><p>Own the map results in Arizona and California.</p></div>
+    <div class="sow-cols">
+      <div><h4>EZZEY delivers</h4><ul>
+        <li>Profile audit and optimization: categories, service areas and consistent name, address and phone data</li>
+        <li>Weekly Google Posts on loan programs and funded deals</li>
+        <li>Photo program with team and property images</li>
+        <li>Review acquisition outreach to past borrowers and partners</li>
+        <li>Q&amp;A management and local citation building</li>
+        <li>Local Services Ads integration</li>
+      </ul></div>
+      <div class="sow-side">
+        <div><h4>Reporting</h4><ul><li>Monthly calls, direction requests and profile views</li></ul></div>
+        <div><h4>MJI provides</h4><ul><li>Profile access</li><li>Photos and funded deal highlights</li><li>Introductions to past borrowers</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="terms">
+    <h3>Governance and terms</h3>
+    <ul class="tight" style="margin-top:12px">
+      <li>Monthly performance review and a quarterly strategy call</li>
+      <li>$7,775 per month for 12 months, billed under the existing Master SOW as an addendum</li>
+      <li>Ad budgets are paid to the platforms and are not part of the management fee</li>
+      <li>Revenue share terms as set out in the agreement</li>
+      <li>Work outside this scope is quoted separately before it begins</li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Keep fighting competitors, or lead the market.</h2>
+  <p>This is the next step on the path to $250K to $500K per month. Approve Phase 2 and we start with a two-week onboarding sprint.</p>
+  <span class="btn">Approve Phase 2</span>
+</section>
+
+<footer><span>EZZEY Digital Marketing · Scottsdale, Arizona</span><span>USMC veteran owned</span></footer>
+
+</div>
+</body>
+</html>
